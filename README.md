@@ -1,7 +1,7 @@
 # PigGame
 Pig-game is a one of dices Games.
 
-#Gameplay
+# Gameplay
 
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
 <ul>
