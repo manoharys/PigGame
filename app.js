@@ -58,7 +58,7 @@ rollDice.addEventListener('click', function () {
   document.getElementById('hold-btn').addEventListener('click',function(){
       score[activePlayer] += PlayerscurrentScore;
       document.getElementById('finalScore-'+activePlayer).innerHTML = score[activePlayer];
-      if(score[activePlayer]>=10){
+      if(score[activePlayer]>=100){
           document.getElementById('playerName-'+activePlayer).innerHTML = "WINNER!!!";
           PlayerscurrentScore = 0;
           document.getElementById('img').style.display='none';
@@ -74,6 +74,8 @@ rollDice.addEventListener('click', function () {
 //Adding a eventListener the newGame button
 document.getElementById('new-game').addEventListener('click',function(){
     init();
+    document.getElementById('img').style.display='none';
+
 })
 
 
