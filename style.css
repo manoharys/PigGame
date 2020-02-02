@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* Global styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto Mono', monospace;
+}
+
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("./images/background-3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    /* To avoid scroll bar */
+    height: 100px;
+}
+
+/* resizing dice pics */
+.images img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Aligning items to the container */
+.wrapper{
+    background-color: aliceblue;
+    width: 60%;
+    height: 25em;
+    margin:auto;
+    margin-top:7%;  
+    display: flex;
+    color:black; 
+    position: relative; 
+}
+
+ /* adjusting the area for two player */
+#player-1{
+    width:50%;
+    text-align: center;
+}
+#player-2{
+    width:50%;
+    text-align: center;
+}
+.player-score{
+    margin-top: 20%;
+}
+.playerName{
+    font-size: 2rem;
+    color: red;
+}
+.playerScore{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.player-currentScore{
+    background-color: red;
+    width:120px;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    padding:.5rem;
+    border-radius: .2rem;
+}
