@@ -1,8 +1,54 @@
-<html>
-  <head>
-    <title> The pig-game </title>
-  </head>
-  <body>
-  <body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pig-game</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div id="player-1">
+        <div class="player-score">
+          <div class="playerName">Player 1</div>
+          <!-- using finalScore-0 for player-1 bcoz scores are stored in array(array starts from 0) -->
+          <div class="" id="finalScore-0">10</div>
+        </div>
+        <div class="player-currentScore">
+          <h4>current</h4>
+          <div class="" id="currentScore">11</div>
+        </div>
+      </div>
+
+      <div id="player-2">
+        <div class="player-score">
+          <div class="playerName">Player 1</div>
+          <!-- using finalScore-0 for player-2 bcoz scores are stored in array(array starts from 0) -->
+          <div class="" id="finalScore-1">20</div>
+        </div>
+        <div class="player-currentScore">
+          <h4>current</h4>
+          <div class="" id="currentScore">11</div>
+        </div>
+      </div>
+    </div>
+    <div class="newgame">
+      <span><button>New game</button></span>
+    </div>
+    <div class="rollDice">
+      <span><button>roll dice</button></span>
+    </div>
+    <div class="Hold">
+      <span><button>Hold</button></span>
+    </div>
+  </div>
+</body>
+<!-- js file -->
+<script src="app.js"></script>
+
+</html>
