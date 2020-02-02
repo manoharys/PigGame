@@ -128,10 +128,11 @@ input {
 }
 
 /* active class */
-.active-0 {
+#active-0 {
     color: blue;
+    display: none;
 }
-.active-1{
+#active-1{
     color: blue;
     display: none;
 }
