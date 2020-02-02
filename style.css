@@ -72,10 +72,12 @@ body {
     padding: .5rem;
     border-radius: .2rem;
     background: linear-gradient(rgb(rgba(0, 0, 0, 0.5))rgba(0, 0, 0, 0.5));
+    color:white;
 }
 
 .player-currentScore h4 {
     font-size: small;
+    color:black
 }
 
 .player-currentScore #currentScore {

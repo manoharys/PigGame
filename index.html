@@ -18,7 +18,7 @@
   <div class="wrapper">
     <div id="player-1">
       <div class="player-score">
-        <div class="playerName">Player 1 <span id="active-0">*</span></div>
+        <div class="playerName" id="playerName-0"> Player 1 <span id="active-0">*</span></div>
         <!-- using finalScore-0 for player-1 bcoz scores are stored in array(array starts from 0) -->
         <div class="playerScore" id="finalScore-0">10</div>
       </div>
@@ -30,7 +30,7 @@
 
     <div id="player-2">
       <div class="player-score">
-        <div class="playerName">Player 1 <span id="active-1">*</span></div>
+        <div class="playerName" id="playerName-1">Player 2 <span id="active-1">*</span></div>
         <!-- using finalScore-0 for player-2 bcoz scores are stored in array(array starts from 0) -->
         <div class="playerScore" id="finalScore-1">20</div>
       </div>
@@ -51,10 +51,10 @@
     </div>
     <div class="rollDice">
       <button id="roll-dice"> <span><i class="fa fa-refresh" aria-hidden="true"></i><input type="button"
-            value="Roll dice"></span></button>
+            value="Roll dice" id='inputBtn'></span></button>
     </div>
     <div class="hold">
-      <button id="hold"> <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><input type="button"
+      <button id="hold-btn"> <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><input type="button"
             value="Hold"></span></button>
     </div>
   </div>
