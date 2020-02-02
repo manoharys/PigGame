@@ -18,45 +18,43 @@
   <div class="wrapper">
     <div id="player-1">
       <div class="player-score">
-        <div class="playerName">Player 1</div>
+        <div class="playerName">Player 1 <span class="active-0">*</span></div>
         <!-- using finalScore-0 for player-1 bcoz scores are stored in array(array starts from 0) -->
         <div class="playerScore" id="finalScore-0">10</div>
       </div>
       <div class="player-currentScore">
         <h4>current</h4>
-        <div class="" id="currentScore">11</div>
+        <div class="" id="currentScore-0">11</div>
       </div>
     </div>
 
     <div id="player-2">
       <div class="player-score">
-        <div class="playerName">Player 1</div>
+        <div class="playerName">Player 1 <span class="active-1">*</span></div>
         <!-- using finalScore-0 for player-2 bcoz scores are stored in array(array starts from 0) -->
         <div class="playerScore" id="finalScore-1">20</div>
       </div>
       <div class="player-currentScore">
         <h4>current</h4>
-        <div class="" id="currentScore">11</div>
+        <div class="" id="currentScore-1">11</div>
       </div>
     </div>
-
-
   </div>
 
   <div class="game-play">
     <div class="newgame">
-      <button> <span> <i class="fa fa-plus-circle" aria-hidden="true"></i><input type="button"
+      <button id="new-game"> <span> <i class="fa fa-plus-circle" aria-hidden="true"></i><input type="button"
             value="new game"></span></button>
     </div>
     <div class="images">
-      <img src="./images/dice-1.png" alt="">
+      <img src="./images/dice-1.png" alt="" id="img">
     </div>
     <div class="rollDice">
-      <button> <span><i class="fa fa-refresh" aria-hidden="true"></i><input type="button"
+      <button id="roll-dice"> <span><i class="fa fa-refresh" aria-hidden="true"></i><input type="button"
             value="Roll dice"></span></button>
     </div>
     <div class="hold">
-      <button> <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><input type="button"
+      <button id="hold"> <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><input type="button"
             value="Hold"></span></button>
     </div>
   </div>

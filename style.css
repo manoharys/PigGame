@@ -5,11 +5,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:  'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
-body{
-    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("./images/background-3.jpeg");
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/background-3.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,59 +23,68 @@ body{
 .images img {
     width: 80px;
     height: 80px;
+    border:3px solid red;
+    border-radius: 1rem;
 }
 
 /* Aligning items to the container */
-.wrapper{
+.wrapper {
     background-color: aliceblue;
     width: 60%;
     height: 25em;
-    margin:auto;
-    margin-top:7%;  
+    margin: auto;
+    margin-top: 7%;
     display: flex;
-    color:black; 
-    position: relative; 
+    color: black;
+    position: relative;
 }
 
- /* adjusting the area for two player */
-#player-1{
-    width:50%;
+/* adjusting the area for two player */
+#player-1 {
+    width: 50%;
     text-align: center;
 }
-#player-2{
-    width:50%;
+
+#player-2 {
+    width: 50%;
     text-align: center;
 }
-.player-score{
+
+.player-score {
     margin-top: 20%;
 }
-.playerName{
+
+.playerName {
     font-size: 2rem;
     color: red;
 }
-.playerScore{
+
+.playerScore {
     font-size: 3rem;
     padding: 2rem;
 }
-.player-currentScore{
+
+.player-currentScore {
     background-color: hsla(0, 92%, 45%, 0.637);
-    width:120px;
+    width: 120px;
     margin-left: 9rem;
     margin-top: 3rem;
-    padding:.5rem;
+    padding: .5rem;
     border-radius: .2rem;
-    background: linear-gradient(rgb(rgba(0,0,0,0.5))rgba(0, 0, 0, 0.5));
+    background: linear-gradient(rgb(rgba(0, 0, 0, 0.5))rgba(0, 0, 0, 0.5));
 }
-.player-currentScore h4{
+
+.player-currentScore h4 {
     font-size: small;
 }
-.player-currentScore  #currentScore{
+
+.player-currentScore #currentScore {
     font-size: 2em;
 }
 
 /* Action event elements */
-.game-play{
-  
+.game-play {
+
     text-align: center;
     margin-top: -24rem;
     width: 100%;
@@ -83,31 +92,46 @@ body{
     z-index: 1;
     position: relative;
 }
-.game-play button,input{
+
+.game-play button,
+input {
     border: none;
     cursor: pointer;
     outline: none;
     background-color: white;
-    
-    
+
+
 }
-.game-play button{
-    border:1px solid red;
-    padding:0 1em;
+
+.game-play button {
+    border: 1px solid red;
+    padding: 0 1em;
     text-align: center;
-    border-radius:1rem;
+    border-radius: 1rem;
 }
-.game-play  i{
+
+.game-play i {
     padding: .5rem;
     font-size: 1rem;
 }
-.newgame{
+
+.newgame {
     padding: 2rem;
 }
-.rollDice
-{
+
+.rollDice {
     margin-top: 5rem;
 }
-.hold{
+
+.hold {
     margin-top: 2rem;
+}
+
+/* active class */
+.active-0 {
+    color: blue;
+}
+.active-1{
+    color: blue;
+    display: none;
 }
