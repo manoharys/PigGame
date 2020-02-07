@@ -1,5 +1,5 @@
 # PigGame
-Pig-game is a one of dices Games.
+Pig-game is a one of the family of dices Games.
 
 # Gameplay
 
