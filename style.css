@@ -138,3 +138,11 @@ input {
     color: blue;
     display: none;
 }
+
+  @media screen only(max-650px){
+       body{
+ 
+         diplay :none;
+      }
+}
+       
